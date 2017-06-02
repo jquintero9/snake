@@ -21,9 +21,6 @@ if __name__ == "__main__":
 
     while run:
         pygame.draw.rect(screen, (255, 255, 255), (0, 0, WIDTH, HEIGHT))
-        # for i in range(HEIGHT // 16):
-        #     for j in range(WIDTH // 16):
-        #         pygame.draw.rect(screen, (0, 0, 0), (j * 16, i * 16, 16, 16), 1)
 
         for event in pygame.event.get():
             keys = pygame.key.get_pressed()
